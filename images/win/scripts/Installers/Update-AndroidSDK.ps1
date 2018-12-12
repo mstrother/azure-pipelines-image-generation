@@ -60,17 +60,32 @@ Push-Location -Path $sdk.FullName
     "platforms;android-17" `
     "platforms;android-15" `
     "platforms;android-10" `
+    "build-tools;28.0.3" `
+    "build-tools;28.0.2" `
+    "build-tools;28.0.1" `
     "build-tools;28.0.0" `
     "build-tools;27.0.3" `
+    "build-tools;27.0.2" `
     "build-tools;27.0.1" `
+    "build-tools;27.0.0" `
     "build-tools;26.0.3" `
+    "build-tools;26.0.2" `
     "build-tools;26.0.1" `
+    "build-tools;26.0.0" `
     "build-tools;25.0.3" `
+    "build-tools;25.0.2" `
+    "build-tools;25.0.1" `
+    "build-tools;25.0.0" `
     "build-tools;24.0.3" `
+    "build-tools;24.0.2" `
+    "build-tools;24.0.1" `
+    "build-tools;24.0.0" `
     "build-tools;23.0.3" `
+    "build-tools;23.0.2" `
     "build-tools;23.0.1" `
     "build-tools;22.0.1" `
     "build-tools;21.1.2" `
+    "build-tools;20.0.0" `
     "build-tools;19.1.0" `
     "build-tools;17.0.0" `
     "extras;android;m2repository" `
@@ -88,7 +103,6 @@ Push-Location -Path $sdk.FullName
     "patcher;v4"
 
 Pop-Location
-
 
 
 # Adding description of the software to Markdown

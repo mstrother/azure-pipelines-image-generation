@@ -18,7 +18,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Node.js 6.14.4
 - Node.js 8.11.3
 - NVM 0.33.11
-- PowerShell 6.1.0
+- PowerShell 6.1.1
 - Python 2.7.10
 - Python 3.7.0
 - Ruby 2.3.7p456
@@ -30,7 +30,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Bundler 1.17.1
 - Carthage 0.31.2
 - CocoaPods 1.5.3
-- Homebrew 1.8.1
+- Homebrew 1.8.4
 - NPM 3.10.10
 - Yarn 1.12.1
 - NuGet 4.7.0.5148
@@ -45,16 +45,16 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 ### Utilities
 
 - curl 7.54.0 (libcurl/7.54.0 LibreSSL/2.0.20 zlib/1.2.11 nghttp2/1.24.0)
-- Git 2.19.1
-- Git LFS 2.5.2
-- GNU Wget 1.19.5
+- Git 2.19.2
+- Git LFS 2.6.1
+- GNU Wget 1.20
 - Subversion (SVN) 1.10.2
 
 ### Tools
 
-- fastlane 2.108.0
-- App Center CLI 1.1.5
-- Azure-CLI 2.0.49
+- fastlane 2.109.0
+- App Center CLI 1.1.9
+- Azure-CLI 2.0.51
 
 ### Pre-cached tools
 - Python 2.7.15 3.4.8 3.5.5 3.6.5 3.7.0
@@ -82,7 +82,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Xcode Support Tools
 
-- Nomad CLI 2.5.2.3
+- Nomad CLI 2.7.7
 - Nomad CLI IPA 0.14.3
 - xcpretty 0.3.0
 - xctool 0.3.5
@@ -328,7 +328,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - iPad (5th generation)
 - iPad Pro (9.7-inch)
 - iPad Pro (10.5-inch)
-- iPad Pro (11-inch) 
+- iPad Pro (11-inch)
 - iPad Pro (12.9-inch)
 - iPad Pro (12.9-inch) (2nd generation)
 - iPad (6th generation)
@@ -483,6 +483,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Xamarin.iOS SDK
 
+- 12.2.1.11
 - 12.0.0.15
 - 12.0.0.10
 - 11.14.0.13

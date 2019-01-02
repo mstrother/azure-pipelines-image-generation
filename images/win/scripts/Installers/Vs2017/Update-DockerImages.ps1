@@ -36,4 +36,4 @@ The following container images have been cached:
 
 Add-SoftwareDetailsToMarkdown -SoftwareName $SoftwareName -DescriptionMarkdown $Description
 
-Add-ContentToMarkdown -Content $(docker images --digests --format "* {{.Repository}}:({{.Digest}})")
+Add-ContentToMarkdown -Content $(docker images --digests --format "* {{.Repository}}@{{.Digest}}")

@@ -37,6 +37,9 @@ Install-WindowsFeature -Name NET-Framework-45-Features -IncludeAllSubFeature
 Install-WindowsFeature -Name BITS -IncludeAllSubFeature
 Install-WindowsFeature -Name DSC-Service
 
+# Install Data Deduplication filter driver, but don't enable it on any drives
+Install-WindowsFeature -Name FS-Data-Deduplication
+
 Write-Host "Disable UAC"
 Disable-UserAccessControl
 

@@ -7,12 +7,7 @@ This repo contains scripts that generate the Linux and Windows virtual machine i
 
 # Image contents
 
-- [macOS 10.13](images/macos/macos-Readme.md)
 - [Ubuntu 16.04](images/linux/Ubuntu1604-README.md)
-- [VS 2017 + Windows Server 2016](images/win/Vs2017-Server2016-Readme.md)
-- [VS 2015 + Windows Server 2012 R2](images/win/Vs2015-Server2012R2-Readme.md)
-- [Windows Container 1803](images/win/WindowsContainer1803-Readme.md)
-
 ## Issues and requests
 
 If you have an issue or request for an image, please create an issue in this repo. To add or change a tool yourself, see [Contributing](#contributing).
@@ -22,11 +17,6 @@ If you have an issue or request for an image, please create an issue in this rep
 ### Linux
 
 - [How to use Packer to create Linux VM images in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/build-image-with-packer)
-
-### Windows
-
-- [Instructions to build VS2017-Win16 images](docs/vs2017.md)
-- [How to use Packer to create Windows VM images in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/build-image-with-packer)
 
 ## Contributing
 

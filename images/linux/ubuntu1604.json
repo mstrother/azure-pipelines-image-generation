@@ -122,7 +122,6 @@
                 "{{template_dir}}/scripts/installers/ruby.sh",
                 "{{template_dir}}/scripts/installers/scala.sh",
                 "{{template_dir}}/scripts/installers/sphinx.sh",
-                "{{template_dir}}/scripts/installers/subversion.sh",
                 "{{template_dir}}/scripts/installers/terraform.sh"
             ],
             "environment_vars": [

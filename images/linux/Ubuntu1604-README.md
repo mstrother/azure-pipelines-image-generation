@@ -106,7 +106,6 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
 - PyPy3 ([PyPy 6.0.0 with GCC 6.2.0 20160901])
 - Scala
 - Sphinx Open Source Search Server
-- Subversion (svn, version 1.9.3 (r1718519))
 - Terraform (Terraform v0.11.10)
 - CMake 3.6.4111459
 - Python (available through the [Use Python Version](https://go.microsoft.com/fwlink/?linkid=871498) task)

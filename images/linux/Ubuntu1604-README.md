@@ -87,9 +87,6 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
 - Leiningen (Leiningen 2.8.2 on Java 1.8.0_192 OpenJDK 64-Bit Server VM)
 - Mercurial (Mercurial Distributed SCM (version 3.7.3))
 - Miniconda (conda 4.5.11)
-- MySQL (mysql  Ver 14.14 Distrib 5.7.24, for Linux (x86_64) using  EditLine wrapper)
-- MySQL Server (user:root password:root)
-- MS SQL Server Client Tools
 - Node.js (v10.14.2)
 - Bower (1.8.4)
 - Grunt (grunt-cli v1.2.0)

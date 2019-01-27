@@ -85,7 +85,6 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
 - kubectl (Client Version: v1.13.0)
 - helm (Client: v2.11.0+g2e55dbe)
 - Leiningen (Leiningen 2.8.2 on Java 1.8.0_192 OpenJDK 64-Bit Server VM)
-- Mercurial (Mercurial Distributed SCM (version 3.7.3))
 - Miniconda (conda 4.5.11)
 - Node.js (v10.14.2)
 - Bower (1.8.4)

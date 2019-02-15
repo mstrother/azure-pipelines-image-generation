@@ -1,39 +1,43 @@
 {
     "variables": {
-        "commit_id": "{{env `COMMIT_ID`}}",
-        "client_id": "{{env `ARM_CLIENT_ID`}}",
-        "client_secret": "{{env `ARM_CLIENT_SECRET`}}",
-        "subscription_id": "{{env `ARM_SUBSCRIPTION_ID`}}",
-        "tenant_id": "{{env `ARM_TENANT_ID`}}",
-        "resource_group": "{{env `ARM_RESOURCE_GROUP`}}",
-        "storage_account": "{{env `ARM_STORAGE_ACCOUNT`}}",
-        "location": "{{env `ARM_RESOURCE_LOCATION`}}",
+        "commit_id": "c1b794d0eba299619e77a427e8488f212c15251d",
+        "client_id": "1a07646a-7560-4049-989d-8695737b978e",
+        "client_secret": "[b}^!%>%=5:*+w&:{^;/>-#$#j@)(!#]-+^@^!-W-^>--/%];=^]];%$g&};*?%",
+        "subscription_id": "80536e48-6b00-4277-9c9b-c8c101eacc63",
+        "tenant_id": "719a9a54-0287-4a6c-b044-674d1ab988d6",
+        "resource_group": "adoAgent-rg",
+        "storage_account": "adoagents",
+        "location": "eastus",
         "image_folder": "/imagegeneration",
         "commit_file": "/imagegeneration/commit.txt",
         "metadata_file": "/imagegeneration/metadatafile",
         "installer_script_folder": "/imagegeneration/installers",
         "helper_script_folder": "/imagegeneration/helpers",
-        "vm_size": "Standard_DS2_v2"
+        "vm_size": "Standard_DS2_v2",
+        "managed_image_resource_group_name": "adoAgent-rg",
+        "managed_image_name": "adoAgent"
     },
     "builders": [
         {
             "type": "azure-arm",
+
             "client_id": "{{user `client_id`}}",
             "client_secret": "{{user `client_secret`}}",
-            "subscription_id": "{{user `subscription_id`}}",
             "tenant_id": "{{user `tenant_id`}}",
+            "subscription_id": "{{user `subscription_id`}}",
 
-            "location": "{{user `location`}}",
-            "vm_size": "{{user `vm_size`}}",
-            "resource_group_name": "{{user `resource_group`}}",
-            "storage_account": "{{user `storage_account`}}",
-            "capture_container_name": "images",
-            "capture_name_prefix": "packer",
             "os_type": "Linux",
             "image_publisher": "Canonical",
             "image_offer": "UbuntuServer",
             "image_sku": "16.04-LTS",
-            "os_disk_size_gb": "128"
+
+            "location": "{{user `location`}}",
+            "vm_size": "{{user `vm_size`}}",
+
+            "os_disk_size_gb": "128",
+
+            "managed_image_resource_group_name": "{{user `managed_image_resource_group_name`}}",
+            "managed_image_name": "{{user `managed_image_name`}}"
         }
     ],
     "provisioners": [

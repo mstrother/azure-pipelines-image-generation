@@ -1,10 +1,10 @@
 {
     "variables": {
-        "commit_id": "c1b794d0eba299619e77a427e8488f212c15251d",
-        "client_id": "1a07646a-7560-4049-989d-8695737b978e",
-        "client_secret": "[b}^!%>%=5:*+w&:{^;/>-#$#j@)(!#]-+^@^!-W-^>--/%];=^]];%$g&};*?%",
-        "subscription_id": "80536e48-6b00-4277-9c9b-c8c101eacc63",
-        "tenant_id": "719a9a54-0287-4a6c-b044-674d1ab988d6",
+        "commit_id": "",
+        "client_id": "",
+        "client_secret": "",
+        "subscription_id": "",
+        "tenant_id": "",
         "resource_group": "adoAgent-rg",
         "storage_account": "adoagents",
         "location": "eastus",
@@ -106,9 +106,7 @@
                 "{{template_dir}}/scripts/installers/dotnetcore-sdk.sh",
                 "{{template_dir}}/scripts/installers/firefox.sh",
                 "{{template_dir}}/scripts/installers/git.sh",
-                "{{template_dir}}/scripts/installers/go.sh",
                 "{{template_dir}}/scripts/installers/google-chrome.sh",
-                "{{template_dir}}/scripts/installers/heroku.sh",
                 "{{template_dir}}/scripts/installers/hhvm.sh",
                 "{{template_dir}}/scripts/installers/image-magick.sh",
                 "{{template_dir}}/scripts/installers/java-tools.sh",
@@ -117,13 +115,11 @@
                 "{{template_dir}}/scripts/installers/miniconda.sh",
                 "{{template_dir}}/scripts/installers/nodejs.sh",
                 "{{template_dir}}/scripts/installers/phantomjs.sh",
+                "{{template_dir}}/scripts/installers/php.sh",
                 "{{template_dir}}/scripts/installers/pollinate.sh",
                 "{{template_dir}}/scripts/installers/powershellcore.sh",
-                "{{template_dir}}/scripts/installers/python.sh",
                 "{{template_dir}}/scripts/installers/ruby.sh",
-                "{{template_dir}}/scripts/installers/scala.sh",
-                "{{template_dir}}/scripts/installers/sphinx.sh",
-                "{{template_dir}}/scripts/installers/terraform.sh"
+                "{{template_dir}}/scripts/installers/sphinx.sh"
             ],
             "environment_vars": [
                 "METADATA_FILE={{user `metadata_file`}}",

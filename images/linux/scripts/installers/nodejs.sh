@@ -11,7 +11,14 @@ source $HELPER_SCRIPTS/document.sh
 # Install LTS Node.js and related build tools
 curl -sL https://git.io/n-install | bash -s -- -ny -
 ~/n/bin/n lts
-npm install -g bower grunt gulp n parcel-bundler typescript
+
+#npm install -g bower
+#npm install -g grunt
+#npm install -g bower grunt gulp n parcel-bundler typescript
+#npm install -g grunt gulp n
+npm install -g n typescript
+#npm cache clean --force
+#npm install -g parcel-bundler
 npm install -g --save-dev webpack webpack-cli
 npm install -g npm
 rm -rf ~/n
@@ -26,7 +33,8 @@ apt-get install -y --no-install-recommends yarn
 
 # Run tests to determine that the software installed as expected
 echo "Testing to make sure that script performed as expected, and basic scenarios work"
-for cmd in node bower grunt gulp webpack parcel yarn; do
+#for cmd in node bower grunt gulp webpack parcel yarn; do
+for cmd in node yarn; do
     if ! command -v $cmd; then
         echo "$cmd was not installed"
         exit 1
@@ -36,11 +44,11 @@ done
 # Document what was added to the image
 echo "Lastly, documenting what we added to the metadata file"
 DocumentInstalledItem "Node.js ($(node --version))"
-DocumentInstalledItem "Bower ($(bower --version))"
-DocumentInstalledItem "Grunt ($(grunt --version))"
-DocumentInstalledItem "Gulp ($(gulp --version))"
+#DocumentInstalledItem "Bower ($(bower --version))"
+#DocumentInstalledItem "Grunt ($(grunt --version))"
+#DocumentInstalledItem "Gulp ($(gulp --version))"
 DocumentInstalledItem "n ($(n --version))"
-DocumentInstalledItem "Parcel ($(parcel --version))"
+#DocumentInstalledItem "Parcel ($(parcel --version))"
 DocumentInstalledItem "TypeScript ($(tsc --version))"
 DocumentInstalledItem "Webpack ($(webpack --version))"
 DocumentInstalledItem "Webpack CLI ($(webpack-cli --version))"

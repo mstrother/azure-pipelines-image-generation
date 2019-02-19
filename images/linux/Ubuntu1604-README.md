@@ -3,7 +3,7 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
 ***
 - Ansible (ansible 2.0.0.2)
 - AzCopy (azcopy 7.3.0-netcore)
-- Azure CLI (azure-cli (2.0.52))
+- Azure CLI (azure-cli                         2.0.58)
 - Basic CLI:
   - curl
   - dnsutils
@@ -28,14 +28,15 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
   - zip
   - tzdata
 - build-essential
-- Clang 6.0 (clang version 6.0.1-svn334776-1~exp1~20181018153226.114 (branches/release_60))
+- Clang 6.0 (clang version 6.0.1-svn334776-1~exp1~20190124082834.118 (branches/release_60))
 - CMake (cmake version 3.12.4)
-- Docker (Docker version 18.09.0, build 4d60db4)
+- Docker (Docker version 18.09.2, build 6247962)
 - Docker Compose (docker-compose version 1.22.0, build f46880fe)
 - .NET Core SDK 1.0.1
 - .NET Core SDK 1.0.4
 - .NET Core SDK 1.1.10
 - .NET Core SDK 1.1.11
+- .NET Core SDK 1.1.12
 - .NET Core SDK 1.1.4
 - .NET Core SDK 1.1.5
 - .NET Core SDK 1.1.7
@@ -63,48 +64,49 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
 - .NET Core SDK 2.1.403
 - .NET Core SDK 2.1.500
 - .NET Core SDK 2.1.502
+- .NET Core SDK 2.1.503
+- .NET Core SDK 2.1.504
 - .NET Core SDK 2.2.100
 - .NET Core SDK 2.2.101
-- Firefox (Mozilla Firefox 64.0)
-- Git (git version 2.19.2)
-- Go 1.9 (go version go1.9.7 linux/amd64)
-- Go 1.10 (go version go1.10.4 linux/amd64)
-- Go 1.11 (go version go1.11.2 linux/amd64)
-- Google Chrome (Google Chrome 71.0.3578.98 )
-- Heroku (heroku/7.19.3 linux-x64 node-v11.3.0)
-- HHVM (HipHop VM 3.29.1 (rel))
+- .NET Core SDK 2.2.102
+- .NET Core SDK 2.2.103
+- .NET Core SDK 2.2.104
+- Firefox (Mozilla Firefox 65.0)
+- Git (2.20.1)
+- Git Large File Storage (LFS) (2.6.1)
+- Google Chrome (Google Chrome 72.0.3626.109 )
+- HHVM (HipHop VM 4.0.1 (rel))
 - ImageMagick
-- Azul JDK (7) (openjdk version "1.7.0_201")
-- Azul JDK (8) (openjdk version "1.8.0_192")
-- Azul JDK (11) (openjdk version "11.0.1" 2018-10-16 LTS)
+- Azul JDK (7) (openjdk version "1.7.0_211")
+- Azul JDK (8) (openjdk version "1.8.0_202")
+- Azul JDK (11) (openjdk version "11.0.2" 2019-01-15 LTS)
 - Ant (Apache Ant(TM) version 1.9.6 compiled on July 20 2018)
-- Gradle 4.10
-- Maven (Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T18:33:14Z))
-- kubectl (Client Version: v1.13.0)
+- Gradle 5.2.1
+- Maven (Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z))
+- kubectl (Client Version: v1.13.3)
 - helm (Client: v2.11.0+g2e55dbe)
-- Leiningen (Leiningen 2.8.2 on Java 1.8.0_192 OpenJDK 64-Bit Server VM)
-- Miniconda (conda 4.5.11)
-- Node.js (v10.14.2)
-- Bower (1.8.4)
-- Grunt (grunt-cli v1.2.0)
-- Gulp ([23:18:10] CLI version 2.0.1)
-- Webpack (4.27.1)
-- Parcel (1.10.3)
-- Yarn (1.12.3)
+- Leiningen (Leiningen 2.9.0 on Java 1.8.0_202 OpenJDK 64-Bit Server VM)
+- Miniconda (conda 4.5.12)
+- Node.js (v10.15.1)
+- n (2.1.12)
+- TypeScript (Version 3.3.3)
+- Webpack (4.29.5)
+- Webpack CLI (3.2.3)
+- Yarn (1.13.0)
 - PhantomJS (2.1.1)
-- Composer  (Composer version 1.8.0 2018-12-03 10:31:16)
+- PHP 5.6 (PHP 5.6.40-1+ubuntu16.04.1+deb.sury.org+1 (cli) )
+- PHP 7.0 (PHP 7.0.33-1+ubuntu16.04.1+deb.sury.org+1 (cli) (built: Dec  7 2018 08:27:52) ( NTS ))
+- PHP 7.1 (PHP 7.1.26-1+ubuntu16.04.1+deb.sury.org+1 (cli) (built: Jan 11 2019 14:13:16) ( NTS ))
+- PHP 7.2 (PHP 7.2.15-1+ubuntu16.04.1+deb.sury.org+1 (cli) (built: Feb  8 2019 15:37:29) ( NTS ))
+- PHP 7.3 (PHP 7.3.2-3+ubuntu16.04.1+deb.sury.org+1 (cli) (built: Feb  8 2019 15:43:26) ( NTS ))
+- Composer  (Composer version 1.8.4 2019-02-11 10:52:10)
+- PHPUnit (PHPUnit 7.5.6 by Sebastian Bergmann and contributors.)
 - Pollinate
-- Powershell (PowerShell 6.1.1)
-- Python (Python 2.7.12)
-- pip (pip 8.1.1 from /usr/lib/python2.7/dist-packages (python 2.7))
-- Python3 (Python 3.5.2)
-- pip3 (pip 8.1.1 from /usr/lib/python3/dist-packages (python 3.5))
-- PyPy2 ([PyPy 6.0.0 with GCC 6.2.0 20160901])
-- PyPy3 ([PyPy 6.0.0 with GCC 6.2.0 20160901])
-- Scala
+- Powershell (PowerShell 6.1.2)
 - Sphinx Open Source Search Server
-- Terraform (Terraform v0.11.10)
-- CMake 3.6.4111459
+## Cached container images
+- jekyll/builder:latest (Digest: sha256:cd963c72ad46b362f881fc7078b5f05f212644263f70a8735af8c92d45bfadb1)
+- mcr.microsoft.com/azure-pipelines/node8-typescript:latest (Digest: sha256:e52e60b9f71183969830a3664279b5d8c799b4b0ec2c25a0686f7c02f6a9669a)
 - Python (available through the [Use Python Version](https://go.microsoft.com/fwlink/?linkid=871498) task)
   - Python 2.7.15
   - Python 3.4.8
@@ -115,6 +117,3 @@ The following software is installed on machines in the Hosted Ubuntu 1604 pool
   - Ruby 2.3.7
   - Ruby 2.4.4
   - Ruby 2.5.1
-## Cached container images
-- jekyll/builder:latest (Digest: sha256:a31ba91889edae2f973602b0b5c634fd1a29f63233bbed288a28bb52f609e4ee)
-- mcr.microsoft.com/azure-pipelines/node8-typescript:latest (Digest: sha256:e52e60b9f71183969830a3664279b5d8c799b4b0ec2c25a0686f7c02f6a9669a)

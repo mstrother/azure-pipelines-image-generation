@@ -3,20 +3,11 @@
 
 ## Overview
 
-This repo contains scripts that generate the Linux virtual machine images used by [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?nav=min) for [Microsoft-hosted CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=vsts&tabs=yaml). The macOS image scripts are not kept here, but its contents are documented here. The images are generated using [Packer](https://www.packer.io/).
+This repo contains scripts that generate the Linux virtual machine images used by [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?nav=min) for [Microsoft-hosted CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=vsts&tabs=yaml). The images are generated using [Packer](https://www.packer.io/).
 
 # Image contents
 
 - [Ubuntu 16.04](images/linux/Ubuntu1604-README.md)
-## Issues and requests
-
-If you have an issue or request for an image, please create an issue in this repo. To add or change a tool yourself, see [Contributing](#contributing).
-
-## Image generation help
-
-### Linux
-
-- [How to use Packer to create Linux VM images in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/build-image-with-packer)
 
 ## Contributing
 
